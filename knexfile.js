@@ -5,10 +5,10 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './dev.sqlite3'
+      filename: './crayons.db'
     },
     // add this
-    userNullAsDefault: true
+    useNullAsDefault: true
   },
 
   // staging: {
